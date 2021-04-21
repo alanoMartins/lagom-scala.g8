@@ -7,7 +7,7 @@ import com.lightbend.lagom.scaladsl.api.{Descriptor, Service, ServiceCall}
 import play.api.libs.json.{Format, Json}
 
 object $name;format="Camel"$Service  {
-  val TOPIC_NAME = $name
+  val TOPIC_NAME = "$name$"
 }
 
 /**
